@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('vcr_osd_mono-webfont.woff2') format('woff2'),
+         url('vcr_osd_mono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'true_liesregular';
+    src: url('true_lies-webfont.woff2') format('woff2'),
+         url('true_lies-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  color: white;
+  background-image: url("images/medianotebg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: 'Poiret One', cursive;
+  margin: 0;
+}
+#header {
+  color: red;
+  text-align: center;
+  padding-top: 100px;
+}
+h1 {
+  font-family: 'true_liesregular', sans-serif;
+  font-size: 120px;
+  text-shadow: 3px 3px 5px black;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.grain {
+  max-width: none;
+  width: 2200px;
+  height: 1125px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  opacity: .3;
+  pointer-events: none;
+}
+#navbar {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px pink;
+}
+
+#navbar a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  color: lightgray;
+}
+#navlinks li {
+  display: inline;
+  padding: 40px;
+  font-family: 'vcr_osd_monoregular'
+}
